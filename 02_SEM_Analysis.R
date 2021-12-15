@@ -1,9 +1,9 @@
 #Load Packages
 OS<-.Platform$OS.type
 if(OS=="unix"){
-  Packages<-"/Users/stephensong/Documents/GitHub/R-repository/Default_Packages_to_Load.R"
+  Packages<-"/Users/Default_Packages_to_Load.R"
 }else if(OS=="windows"){
-  Packages<-"C:/Users/steph/Onedrive/Documents/GitHub/R repository/Default_Packages_to_Load.R"
+  Packages<-"C:/Users/Default_Packages_to_Load.R"
 }else{
   print("ERROR: Packages NOT LOADED!!")
 }
@@ -12,7 +12,7 @@ source(Packages)
 #OS settings
 OS<-.Platform$OS.type
 if(OS=="unix"){
-  workdirectory<-"/Users/stephensong/Documents/GitHub/dissertationdata/Publication papers" # MAC file path
+  workdirectory<-"/Users/Publication papers" # MAC file path
 }else if(OS=="windows"){
   workdirectory<-"C:/Users/steph/Onedrive/Documents/GitHub/VRecommerce" # windows file path
 }else{
